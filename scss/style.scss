@@ -1,0 +1,78 @@
+@import "zeroing_out.scss";
+
+$background-color: rgb(252, 251, 195);
+$text-color: white;
+
+main{
+    color: $text-color;
+    background-color: $background-color;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center center;
+}
+
+.weather_cart {
+    border-radius: 25px;
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(245, 183, 91);
+    box-shadow: 0 10px 20px 0 black;
+}
+
+
+
+.snow{
+    background-color: rgb(70, 63, 136);
+}
+.rain{
+    background-color: rgb(80, 28, 223);
+}
+.drizzle{
+    background-color: rgb(80, 28, 223);
+}
+.thunderstorm{
+    background-color: rgb(15, 3, 59);
+}
+.atmosphere{
+    background-color: rgb(112, 112, 112);
+}
+.clear{
+    background-color: rgb(139, 111, 243);
+}
+.clouds{
+    background-color: rgb(10, 1, 44);
+}
+
+
+
+.date {
+    padding-bottom: 20px;
+}
+.time {
+    font-size: 50px;
+}
+#weather-icon{
+    width: 150px;
+    height: 150px;
+}
+#location {
+    padding-top: 20px;
+}
+.desc{
+    padding-bottom: 20px;
+}
+.weather {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+
+
+
